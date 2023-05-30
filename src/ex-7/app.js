@@ -9,8 +9,11 @@
 // Solicitar al usuario una frase
 const frase = prompt("Ingrese una frase: ");
 
+// Convertir la frase a minúsculas
+const fraseMinusculas = frase.toLowerCase();
+
 // Contar la cantidad de veces que aparece la letra "a" en la frase
-const contadorA = frase.split("a").length - 1;
+const contadorA = fraseMinusculas.split("a").length - 1;
 
 // Mostrar el resultado en la consola
 console.log("La letra 'a' aparece " + contadorA + " veces en la frase.");
