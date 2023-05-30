@@ -26,7 +26,7 @@ ex-2.js
 css
 
 
-Escribe un programa que escriba en la pantalla un texto de tipo <h1> que diga “Hello Javascript”.
+Escribe un programa que escriba en la pantalla un texto de tipo "<h1>" que diga “Hello Javascript”.
 
 Escribe un programa que escriba en la pantalla “La suma de 3 + 5 es <resultado>”.
 
